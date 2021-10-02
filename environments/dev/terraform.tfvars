@@ -1,0 +1,10 @@
+region = "us-east-1"
+account_id = "746103488160"
+environment = "dev"
+cidr_block = "10.0.0.0/16"
+private_subnet_list = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+public_subnet_list = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
+wg_1_instance_type = "t2.small"
+wg_2_instance_type = "t3.medium"
+wg_1_asg_desired_capacity = 1
+wg_2_asg_desired_capacity = 2
