@@ -17,7 +17,7 @@ terraform init --backend-config=../environments/<env_name>/backend.tf
 ```
 - Run terraform plan
 ```
-terraform plan -var-file ../environments//<env_name>/terraform.tfvars 
+terraform plan -var-file ../environments/<env_name>/terraform.tfvars 
 ```
 
 > Refer the below Hello World PHP app repository for information on deployment: 
